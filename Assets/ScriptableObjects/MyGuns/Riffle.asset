@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ced5b1e1e7b3cb458c2c22f24a9130b, type: 3}
+  m_Name: Riffle
+  m_EditorClassIdentifier: 
+  Name: Riffle
+  typeOfGun: 3
+  HitMask:
+    serializedVersion: 2
+    m_Bits: 2753
+  damage: 10
+  fireRate: 20
+  bulletsPerShot: 1
+  reloadTime: 2
+  distance: 200
+  magSize: 40
+  bulletsLeft: 40
+  totalBulletsLeft: 100
+  Spread: {x: 0.03, y: 0.03, z: 0.03}
+  TrailConfig: {fileID: 11400000, guid: c5f0c3599c42d7a4094ef1be3380b570, type: 2}
+  shootingSound: {fileID: 8300000, guid: 38f3090885a55204785c125e03a76ffe, type: 3}
+  reloadingSound: {fileID: 8300000, guid: 25c91ada97c8a4e43acf526d03d98df7, type: 3}
+  typeOfAmmo: 0
+  bulletSpead: 100
+  bulletDropForce: 0
+  bulletPrefab: {fileID: 3833444355664148398, guid: e9f300041e836f04a917b76bc62b2138,
+    type: 3}
